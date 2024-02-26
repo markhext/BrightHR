@@ -19,7 +19,7 @@ export const Conflict = memo(({ id }: { id: number }) => {
 
   if (!response.success) {
     const err = response.error.format();
-    return <div>{JSON.stringify(err, 2, null)}</div>;
+    return <div>{JSON.stringify(err, null, 2)}</div>;
   }
 
   if (!response.data.conflicts) return null;
