@@ -8,19 +8,21 @@ This application is built on Vite using TypeScript, React TS, Tailwind and Zod
 pnpm i
 ```
 
-## Run dev
+### Run dev
 
 ```
 pnpm dev
 ```
 
-## Run tests
+[Go to localhost:3000](localhost:3000)
+
+### Run tests
 
 ```
 pnpm test
 ```
 
-## Run build
+### Run build
 
 ```
 pnpm build
